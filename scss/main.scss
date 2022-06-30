@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+@import './variables/extend';
+@import './variables/mixins';
 
 header{
     display: flex;
@@ -10,9 +12,9 @@ header{
     align-items: center;
 
     img{
-        width: 104px;
-        height: 74px;
+        @extend %estiloimagen;
     }
+    
     h1{
         background-color: #1F1F1F;
         display: block;
@@ -37,12 +39,7 @@ header{
 
 main{
     h3{
-        background-color: #AE0A0A;
-    font-size: 25px;
-    font-family: sans-serif;
-    text-align: center;
-    text-decoration: underline;
-    color: black;
+        @include titulo(#AE0A0A, black)
     }
     p{
         padding: 20px;

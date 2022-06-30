@@ -1,0 +1,4 @@
+Agregue keywords a la pagina (jiu-jitsu, lucha, boxeo, kick boxing, judo).
+Aplique una descripcion a la pagina con su etiqueta meta.
+utilice un extend para modificar el estilo de la imagen del Header.
+utilice un mixin con parametros para modificar los titulos dentro del main de la pagina.

@@ -1,0 +1,9 @@
+@mixin titulo ($colorfondo, $colorletra) {
+    background-color: $colorfondo;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: $colorletra;
+}
+    

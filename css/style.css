@@ -2,14 +2,15 @@
   margin: 0;
   padding: 0; }
 
+header img {
+  width: 104px;
+  height: 74px; }
+
 header {
   display: flex;
   background-color: #1F1F1F;
   justify-content: space-between;
   align-items: center; }
-  header img {
-    width: 104px;
-    height: 74px; }
   header h1 {
     background-color: #1F1F1F;
     display: block;
